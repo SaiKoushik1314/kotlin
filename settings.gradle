@@ -1,0 +1,6 @@
+pluginManagement {
+  repositories {
+    maven { url "https://artifactory.kroger.com/artifactory/plugins-release" }
+  }
+}
+rootProject.name = "digitalapp"

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.digital.digitalapp.service.ProductServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-03-01T21:19:33" hostname="OF060X96RCJG5JE" time="1.313">
+  <properties/>
+  <testcase name="should throw error" classname="com.digital.digitalapp.service.ProductServiceTest" time="1.292"/>
+  <testcase name="should be successful when data is pulled from database" classname="com.digital.digitalapp.service.ProductServiceTest" time="0.021"/>
+  <system-out><![CDATA[16:19:35.262 [Test worker] INFO com.digital.digitalapp.service.ProductService - Calling Persistence Service to get Products.
+16:19:35.279 [Test worker] INFO com.digital.digitalapp.service.ProductService - Returning Products response.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

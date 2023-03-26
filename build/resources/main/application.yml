@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: DigitalPOC
+  output:
+    ansi:
+      enabled: detect
+  jpa:
+    hibernate:
+      dialect: org.hibernate.dialect.SQLServer2013Dialect
+      ddl-auto: none
+  datasource:
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    url: jdbc:sqlserver://localhost:1433;databaseName=LEMANS
+    username: sa
+    password: <YourStrong!Passw0rd>
+server:
+  port: 8087
